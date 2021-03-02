@@ -97,12 +97,12 @@ author:
   name             : "Nainye"
   avatar           : "/assets/images/bio-photo.jpeg"
   bio              : "**HUFS CES 18**"
-  location         : "Somewhere"
+  location         : "South Korea"
   email            : "naiy0404@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "matilto:naiy0404@naver.com"
+      url: matilto:naiy0404@naver.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://blog.naver.com/naiy0404"
@@ -120,17 +120,17 @@ author:
       # url: "https://instagram.com/"
 
 # Site Footer
-# footer:
-  # links:
+footer:
+  links:
     # - label: "Twitter"
       # icon: "fab fa-fw fa-twitter-square"
       # url:
     # - label: "Facebook"
       # icon: "fab fa-fw fa-facebook-square"
       # url:
-    # - label: "GitHub"
-      # icon: "fab fa-fw fa-github"
-      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nainye"
     # - label: "GitLab"
       # icon: "fab fa-fw fa-gitlab"
       # url:
@@ -210,7 +210,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)
